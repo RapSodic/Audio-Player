@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  background-image: url("img/TulceaBanner.jpg");
+  background-image: url("TulceaBanner.jpg");
   background-size: cover;
   background-position: 100%;
   
