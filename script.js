@@ -1,5 +1,5 @@
 var titluPiese = ["RapSodic - Aere", "RapSodic - De vara"];
-var pozeCover = ['RapSodic - Aere.jpg', 'RapSodic - De vara.jpg' ];
+var pozeCover = ['Aere.jpg', 'De vara.jpg'];
 var piese = ['RapSodic - Aere.mp3', 'Rapsodic - De vara.mp3'];
 var i = piese[0]
 
