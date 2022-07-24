@@ -1,6 +1,6 @@
 var titluPiese = ["RapSodic - Aere", "RapSodic - De vara"];
-var pozeCover = ['images/RapSodic - Aere.jpg', 'images/RapSodic - De vara.jpg' ];
-var piese = ['music/RapSodic - Aere.mp3', 'music/Rapsodic - De vara.mp3'];
+var pozeCover = ['RapSodic - Aere.jpg', 'RapSodic - De vara.jpg' ];
+var piese = ['RapSodic - Aere.mp3', 'Rapsodic - De vara.mp3'];
 var i = piese[0]
 
 document.getElementById('audio').src = piese[0];
