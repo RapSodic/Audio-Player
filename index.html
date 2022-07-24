@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0eb68f09cc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div id="audio-player">
+      <div id="title"></div>
+      <div class="cover">
+        <img src="" alt="imagine aere" id="img-cover">
+        <audio id="audio" src="" preload="auto"></audio>
+      </div>
+      
+      <div class="song">
+        <i class="fa-solid fa-backward" onclick="prev()" id="prev-song"></i>
+        
+        <i class="fa-solid fa-play" onclick="play()" id="play-song">
+        </i>
+               
+        <i class="fa-solid fa-pause" onclick="pause()" id="pause-song">
+        </i>
+      
+        <i class="fa-solid fa-stop" onclick="stop()" id="stop-song">
+        </i>
+      
+        <i class="fa-solid fa-forward" onclick="next()" id="next-song"></i>
+
+    
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

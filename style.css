@@ -1,0 +1,60 @@
+#audio-player {
+  height: 60vh;
+  width: 80%;
+  margin: 50px auto;
+  padding: 50px 20px;
+  background: rgb(250, 242, 242);
+  box-shadow: 2px 5px 5px rgb(6, 5, 5);
+  color: rgb(76, 73, 73);
+  text-shadow: 0 0 1px black;
+  text-align: center;
+  border-radius: 2%;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 415px) {
+  .song {
+    display: block;
+  }
+}
+
+.cover #img-cover {
+  width: 150px;
+  margin: 20px;
+  border: 5px solid rgb(220, 216, 216);
+  box-shadow: 0 0 3px black;
+  border-radius: 10%; 
+}
+
+
+
+.fa-solid {
+  background-color: rgb(250, 242, 242);
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+  height: inherit;
+  color: rgb(104, 88, 194);
+  text-align: center;
+  text-shadow: 0 0 2px black;
+  border: 0;
+  box-shadow: 0 0 5px black;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-solid:hover {
+  transform: scale(1.1);
+}
+.fa-solid:active {
+  transform: scale(1);
+}
+
+
