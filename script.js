@@ -1,5 +1,5 @@
 var titluPiese = ["RapSodic - Aere", "RapSodic - De vara"];
-var pozeCover = ['RapSodic - Aere.jpg', 'RapSodic - De vara.jpg'];
+var pozeCover = ['RapSodic - Aere.jpg', 'RapSodic - De Vara.jpg'];
 var piese = ['RapSodic - Aere.mp3', 'Rapsodic - De vara.mp3'];
 var i = piese[0]
 
@@ -51,7 +51,7 @@ function stop() {
 
 function next() {
 	document.getElementById('audio').src = piese[1];
-	document.getElementById('img-cover').src = pozeCover[1];
+	document.getElementById('img-cover').src = 'RapSodic - De Vara.jpg';
 	document.getElementById('title').innerHTML = "Asculti: " + titluPiese[1];
 }
 
